@@ -1,0 +1,11 @@
+{
+"autoload": {
+    "psr-4": {
+      "Ming\\" : "src"
+    },
+    "files": ["src/functions.php"]
+  },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    }
+}
