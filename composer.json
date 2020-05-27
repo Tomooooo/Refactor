@@ -1,11 +1,17 @@
 {
-"autoload": {
-    "psr-4": {
-      "Ming\\" : "src"
-    },
-    "files": ["src/functions.php"]
+  "autoload": {
+      "psr-4": {
+        "Ming\\" : "src"
+      },
+      "files": ["src/functions.php"]
   },
-    "require-dev": {
-        "symfony/var-dumper": "^5.0"
+  "require-dev": {
+      "symfony/var-dumper": "^5.0",
+      "phpunit/phpunit": "^8.5"
+  },
+  "autoload-dev": {
+    "psr-4": {
+        "Tests\\": "tests/"
     }
+  }
 }
